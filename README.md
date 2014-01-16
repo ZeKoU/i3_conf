@@ -1,4 +1,6 @@
-# My very own i3 Configuration
+# This is i3 Configuration I use on all of my Ubuntu workstations.
+# Read about i3 window manager here: http://i3wm.org/
+
 
 ## Requirements
 ### general
@@ -24,19 +26,32 @@ It's as simple as that:
 
 ```bash
 cd
-git clone https://github.com/ivyl/i3-config.git .i3
+git clone https://github.com/ZeKoU/i3_conf .i3
 ln -s .i3/xinitrc .xinitrc
 ln -s .i3/gtkrc-2.0 .gtkrc-2.0
 ```
 
 ##Bindings
-* Super-Shift-c - close current windows
-* Super-Shift-Enter - open terminal
-* Super - drag floating windows
-* Super-t - toggle floating mode
-* Super-f - fullscreen
-* Super-r - resize mode
-* Super-d - parent container - dad
-* Super-b - child container - baby
+Super --> Windows key (unused on Linux)
 
-Check config for more.
+* Super-c - kill focused window
+* Super-Enter - open terminal
+* Super-v - split in horizontal orientation
+* Super-g - split in vertical orientation
+* Super-f - enter fullscreen mode
+* 
+* Super-s - resize mode
+* Super-Left - shrink width in resize mode
+* Super-Right - grow width in resize mode
+* Super-Down - shrink height in resize mode
+* Super-Up - grow height in resize mode
+
+* Super-n - toogle tabbed layout
+* Super-m - toggle split layout
+* Super-Space - change focus between tiling / floating windows
+
+* Super-z - reload configuration
+* Super-Shift-x - restart
+* Super-Shift-z - exit
+
+Check config for more...
