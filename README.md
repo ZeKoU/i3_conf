@@ -33,22 +33,24 @@ ln -s .i3/gtkrc-2.0 .gtkrc-2.0
 ##Bindings
 Super --> Windows key (unused on Linux)
 
+###Layouts
 * Super-c - kill focused window
 * Super-Enter - open terminal
 * Super-v - split in horizontal orientation
 * Super-g - split in vertical orientation
 * Super-f - enter fullscreen mode
-* 
+* Super-n - toogle tabbed layout
+* Super-m - toggle split layout
+* Super-Space - change focus between tiling / floating windows
+
+###Resizing
 * Super-s - resize mode
 * Super-Left - shrink width in resize mode
 * Super-Right - grow width in resize mode
 * Super-Down - shrink height in resize mode
 * Super-Up - grow height in resize mode
 
-* Super-n - toogle tabbed layout
-* Super-m - toggle split layout
-* Super-Space - change focus between tiling / floating windows
-
+###Reloading
 * Super-z - reload configuration
 * Super-Shift-x - restart
 * Super-Shift-z - exit
