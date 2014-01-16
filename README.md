@@ -1,6 +1,5 @@
-# This is i3 Configuration I use on all of my Ubuntu workstations.
-# Read about i3 window manager here: http://i3wm.org/
-
+# My i3 Configuration 
+### Read about i3 window manager here: http://i3wm.org/
 
 ## Requirements
 ### general
